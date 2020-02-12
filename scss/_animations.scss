@@ -1,0 +1,61 @@
+//Some animation used keyframe to animate buttons/burgers
+
+
+// Last burger wave animation
+@keyframes burgerWave {
+    0% {
+        width: 100%;
+    }
+
+    50% {
+        width: 40%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+// Appear burger - animation of string "Menu"
+@keyframes menuAppear {
+    0% {
+        top: 100%;
+        left: 10%;
+    }
+
+    50% {
+        top: -10%;
+        opacity: 1;
+    }
+
+    60% {
+        transform: rotate(3deg);
+        top: 10%
+    }
+
+    70% {
+        transform: rotate(-3deg);
+        top: 15%;
+    }
+
+    80% {
+        transform: rotate(3deg);
+    }
+
+    100% {
+        left: 10%;
+        top: 20%;
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+
+@keyframes burgerSpin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360);
+    }
+}
